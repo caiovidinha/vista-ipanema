@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Imóveis em Ipanema - Landing Page</title>
+    <meta name="description" content="Landing Page - Imóveis e oportunidades em Ipanema" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome via CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Caso queira um CSS adicional -->
+    <!-- <link rel="stylesheet" href="assets/css/style.css" /> -->
+  </head>
+  <body class="font-sans text-gray-800">
+    <!-- HERO / BANNER PRINCIPAL -->
+    <section class=" px-12 relative flex items-center justify-center h-screen bg-cover bg-center"
+      style="background-image: url('assets/img/banner.jpg')"
+    >
+      <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+      <div class="relative z-10 text-center px-4 max-w-2xl">
+        <h1 class="text-4xl md:text-5xl text-white font-extrabold mb-4">
+          Encontre o Imóvel Perfeito em Ipanema
+        </h1>
+        <p class="text-lg text-white mb-8">
+          Seja para morar ou investir, descubra as oportunidades mais desejadas no coração da Zona Sul.
+        </p>
+        <a
+          href="#formulario"
+          class="bg-green-400 text-gray-900 font-semibold px-8 py-4 rounded-full shadow-lg hover:bg-green-300 transition-colors"
+        >
+          Quero Receber Ofertas
+        </a>
+      </div>
+    </section>
+
+    <!-- SEÇÃO POR QUE IPANEMA -->
+    <section class=" px-12 py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-12 max-w-2xl mx-auto">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">Por que Ipanema?</h2>
+          <p class="text-gray-600">
+            Um dos bairros mais icônicos do Rio de Janeiro, com praias de tirar o fôlego
+            e uma atmosfera cosmopolita.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+          <div>
+            <h3 class="text-2xl font-semibold mb-4">Qualidade de Vida Incomparável</h3>
+            <p class="mb-4">
+              More onde o clima praiano e o urbano se encontram. Em Ipanema, você terá fácil
+              acesso a restaurantes renomados, lojas exclusivas e opções de lazer para todos
+              os gostos.
+            </p>
+            <p class="mb-4">
+              As ruas arborizadas e a proximidade com a Praia de Ipanema tornam a vida diária
+              muito mais agradável. É o lugar ideal para quem busca bem-estar e sofisticação.
+            </p>
+            <ul class="list-disc pl-5 text-gray-700">
+              <li class="mb-2">Vista privilegiada do mar e do Morro Dois Irmãos</li>
+              <li class="mb-2">Excelentes opções de bares, cafés e shoppings</li>
+              <li class="mb-2">Fácil acesso a transporte público</li>
+              <li class="mb-2">Região valorizada e segura</li>
+            </ul>
+          </div>
+          <!-- Espaço para imagem -->
+          <div>
+            <img
+              src="assets/img/secao-sobre.jpg"
+              alt="Vista da Praia de Ipanema"
+              class="rounded-lg shadow-md w-full"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO DIFERENCIAIS -->
+    <section class=" px-12 py-16 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold">Diferenciais dos Imóveis em Ipanema</h2>
+          <p class="text-gray-600 mt-2">
+            O padrão de construção e a localização privilegiada elevam cada propriedade a outro nível.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Card 1 -->
+          <div class="p-6 bg-white rounded-lg shadow text-center">
+            <i class="fas fa-building text-4xl text-green-600 mb-4"></i>
+            <h4 class="text-xl font-semibold mb-2">Acabamentos Premium</h4>
+            <p class="text-gray-700">
+              Unidades projetadas com materiais de alta qualidade, garantindo durabilidade e beleza.
+            </p>
+          </div>
+          <!-- Card 2 -->
+          <div class="p-6 bg-white rounded-lg shadow text-center">
+            <i class="fas fa-location-arrow text-4xl text-green-600 mb-4"></i>
+            <h4 class="text-xl font-semibold mb-2">Localização Privilegiada</h4>
+            <p class="text-gray-700">
+              Próximo a tudo que você precisa: praia, mercado, restaurantes e comércio variado.
+            </p>
+          </div>
+          <!-- Card 3 -->
+          <div class="p-6 bg-white rounded-lg shadow text-center">
+            <i class="fas fa-seedling text-4xl text-green-600 mb-4"></i>
+            <h4 class="text-xl font-semibold mb-2">Sustentabilidade</h4>
+            <p class="text-gray-700">
+              Projetos pensados para reduzir impactos ambientais e promover bem-estar.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO DE DESTAQUE / CHAMADA -->
+    <section class=" px-12 py-16 bg-green-600 text-white text-center">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold mb-4">Garanta o Seu Lugar no Paraíso</h2>
+        <p class="max-w-2xl mx-auto mb-8">
+          Viver em Ipanema é sinônimo de qualidade de vida, com uma das orlas mais famosas
+          do mundo bem ao seu alcance.  
+        </p>
+        <a
+          href="#formulario"
+          class="bg-white text-green-600 font-semibold px-8 py-4 rounded-full shadow-lg hover:bg-gray-100 transition-colors"
+        >
+          Quero Receber Mais Informações
+        </a>
+      </div>
+    </section>
+
+    <!-- SEÇÃO FORMULÁRIO DE CONTATO -->
+    <section id="formulario" class="py-16 bg-gray-100">
+      <div class="container mx-auto px-4">
+        <div class="max-w-2xl mx-auto text-center mb-8">
+          <h2 class="text-3xl font-bold">Fale Conosco</h2>
+          <p class="text-gray-600">
+            Preencha o formulário para saber mais sobre as melhores ofertas e lançamentos em Ipanema.
+          </p>
+        </div>
+        <div class="max-w-xl mx-auto">
+          <form class="space-y-6">
+            <div>
+              <label for="nome" class="block mb-2 font-medium text-left">Nome</label>
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-green-500"
+                placeholder="Seu nome completo"
+                required
+              />
+            </div>
+            <div>
+              <label for="email" class="block mb-2 font-medium text-left">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-green-500"
+                placeholder="seuemail@exemplo.com"
+                required
+              />
+            </div>
+            <div>
+              <label for="telefone" class="block mb-2 font-medium text-left">Telefone</label>
+              <input
+                type="tel"
+                id="telefone"
+                name="telefone"
+                class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-green-500"
+                placeholder="(XX) 9XXXX-XXXX"
+                required
+              />
+            </div>
+            <div>
+              <label for="mensagem" class="block mb-2 font-medium text-left">Mensagem</label>
+              <textarea
+                id="mensagem"
+                name="mensagem"
+                rows="4"
+                class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-green-500"
+                placeholder="Descreva o que procura, dúvidas, etc."
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="w-full bg-green-600 hover:bg-green-500 text-white font-semibold py-3 rounded-lg transition-colors"
+            >
+              Enviar
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="bg-gray-800 text-white py-6">
+      <div class="container mx-auto text-center">
+        <p>© 2025 Imóveis em Ipanema | Todos os direitos reservados</p>
+      </div>
+    </footer>
+
+  </body>
+</html>
